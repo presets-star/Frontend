@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Категории</title>
+</head>
+<body>
+    <main class="main-bg">
+        <main class="container">
+            <header class="header">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.svg" alt="logotype"></a>
+                </div>
+                <nav class="nav">
+                    <a href="#"><img src="images/acc.svg" alt="your account"></a>
+                    <a href="#"><img src="images/shop.svg" alt="shop"></a>
+                </nav>
+            </header>
+            <main class="categories">
+                <div class="categories__search">
+                    <div class="input-element">
+                        <input class="input" type="text" placeholder="Что вы ищете?">
+                        <button class="search-button">
+                            <img src="images/search.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="select">
+                    <ul class="categories__select">
+                        <li value="1" class="categories__select-li Solid">Solid</li>
+                        <li value="2" class="categories__select-li Creative">Creative</li>
+                        <li value="3" class="categories__select-li Wide">Wide</li>
+                        <li value="4" class="categories__select-li Spread">Spread</li>
+                        <li value="5" class="categories__select-li Dirty">Dirty</li>
+                        <li value="6" class="categories__select-li Clean">Clean</li>
+                        <li value="7" class="categories__select-li Distorted">Distorted</li>
+                    </ul>
+                    <button class="right__select"><img src="images/right.svg"/></button>
+                </div>
+            </main>
+            <div class="card root"></div>
+        </main>
+    </main>
+    <main class="main">
+        <div class="container">
+            <section>
+                <hr class="line">
+                <h2 class="h2">В ТРЕНДЕ</h2>
+                <div class="card root"></div>
+                <div class="flex-end">
+                    <button class="button">Увидеть больше</button>
+                </div>
+            </section>
+            <div class="gradient">
+                <section class="main_descr">
+                        <h2 class="h2 main_descr-h2">Почему же пресеты в музыкальной индустрии являются преимуществом?</h2>
+                        <div class="main_descr-flex">
+                            <div class="main_descr-text">
+                                <p>
+                                    1. Экономия времени: Использование готовых пресетов позволяет сэкономить много времени при создании музыки, так как они предварительно настроены и оптимизированы для конкретного звука или инструмента. Это особенно полезно при работе с программными синтезаторами или сэмплами.
+                                </p>
+                                <p>
+                                    2. Профессиональное звучание: Пресеты, предоставляемые в профессиональных аудио-плагинах или программном обеспечении, обычно разработаны опытными звукоинженерами и продюсерами, поэтому они обеспечивают высокое качество звучания.
+                                </p>
+                                <p>
+                                    3. Вдохновение и творчество: Пресеты могут быть хорошей источником вдохновения для создания новых музыкальных идей. Они могут предложить новые звуки или звуковые комбинации, которые могут стать отправной точкой для создания оригинальной музыки.
+                                </p>
+                            </div>
+                            <div class="main_descr-img"><img src="images/Rectangle23.png" alt=""></div>
+                        </div>
+                </section>
+                <button class="button button-descr">Читать полностью</button>
+            </div>
+            <section class="presets">
+                <h2 class="h2">Пресеты</h2>
+                <div class="card root"></div>
+                <div class="flex-end">
+                    <button class="button">Посмотреть все</button>
+                </div>
+            </section>
+            <section class="reviews">
+                <button id="prev"><img class="prev_slide" src="images/left.svg"></button>
+                <div class="reviews_slider">
+                    <div class="slider-wrapper">
+                        <div class="slide">
+                            <div class="review_content">
+                                <div class="review_text">Рекомендую этот магазин всем музыкантам и продюсерам, нуждающимся в качественных пресетах для своих проектов.</div>
+                                <div class="autor-reviews">
+                                    <div><img src="images/score.svg"></div>
+                                    <div><img src="images/coolmusic.svg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="review_content">
+                                <div class="review_text">Рекомендую этот магазин всем музыкантам и продюсерам, нуждающимся в качественных пресетах для своих проектов.</div>
+                                <div class="autor-reviews">
+                                    <div><img src="images/score.svg"></div>
+                                    <div><img src="images/coolmusic.svg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="review_content">
+                                <div class="review_text">Рекомендую этот магазин всем музыкантам и продюсерам, нуждающимся в качественных пресетах для своих проектов.</div>
+                                <div class="autor-reviews">
+                                    <div><img src="images/score.svg"></div>
+                                    <div><img src="images/coolmusic.svg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="next"><img class="next_slide" src="images/right.svg"></button>
+            </section>
+            <section class="form">
+                <div class="form-element">
+                    <h2 class="h2">ПОДПИШИТЕСЬ НА РАССЫЛКУ ЧТОБЫ УЗНАВАТЬ О НОВИНКАХ ПЕРВЫМ</h2>
+                    <form method="post" class="input-element">
+                        <input class="input input-post" type="text" placeholder="Ваш e-mail">
+                        <button class="button button-post">Подписаться</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_container">
+                <div class="PresetsStar">
+                    <h3>Preset’s Stars</h3>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Блог</a></li>
+                    </ul>
+                </div>
+                <div class="social-networks">
+                    <h3>Социальные сети</h3>
+                    <ul>
+                        <li><a href="#">ВКонтакте</a></li>
+                        <li><a href="#">Telegram</a></li>
+                    </ul>
+                </div>
+                <div class="support">
+                    <h3>Поддержка</h3>
+                    <ul>
+                        <li><a href="#">Вход</a></li>
+                        <li><a href="#">Регистрация</a></li>
+                        <li><a href="#">Связаться с нами</a></li>
+                        <li><a href="#">Помощь</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script crossorigin src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone@7.23.10/babel.min.js"></script>
+    <script src="script/script.js" type="text/babel"></script>
+</body>
+</html>
