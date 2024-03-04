@@ -7,11 +7,13 @@
     <title>preset</title>
     <link rel="stylesheet" href="./style.scss">
     <link rel="stylesheet" href="/components/header/style.scss">
-    <link rel="stylesheet" href="/components/footer/style.scss">
+ <link rel="stylesheet" href="/components/footer/style.scss">
+ <link rel="stylesheet" href="/components/authorization/style.scss">
+
 </head>
 
 <body>
-
+    <header></header>
     <div class="main_contener">
 
         <div class="prseta__flex__cont">
@@ -88,7 +90,8 @@
 
                     <div class="gravatar__input__flex">
                         <div class="gravatar"><img src="/public/gravatar.png" alt=""></div>
-                        <div class="input__case__btn"><input type="text" placeholder="Поделитесь своими мыслями"> <button class="inp__btn">Отправить</button>
+                        <div class="input__case__btn"><input type="text" placeholder="Поделитесь своими мыслями">
+                            <button class="inp__btn">Отправить</button>
                         </div>
                     </div>
                 </div>
@@ -97,9 +100,13 @@
 
 
     </div>
+    <div class="main__authorization__contener"></div>
+
     <footer></footer>
     <script src="/components/footer/index.js"></script>
     <script src="/components/header/index.js"></script>
+    <script src="../authorization/index.js"></script>
+
     <script src="./index.js"></script>
 </body>
 
