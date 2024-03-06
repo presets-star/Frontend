@@ -41,10 +41,10 @@
                     </div>
 
                     <div class="favorite__port__version__rating__box">
-                        <p>Избранное</p>
-                        <p>Портфолио</p>
-                        <p>Демо-версии</p>
-                        <p>Рейтинг:</p>
+                        <p  data-page="favorites">Избранное</p>
+                        <p  data-page="portfolio">Портфолио</p>
+                        <p  data-page="demos">Демо-версии</p>
+                        <p >Рейтинг:</p>
                         <img width="100px" src="/public/stars (2).png" alt="">
                     </div>
 
@@ -143,10 +143,26 @@
                     </table>
                 </div>
             </div>
+
         </div>
+        <div class="switching-btns">
+            <button  value="favorites" name="favorites"  class="switching__favorites switching-active">Избранное</button>
+            <button  value="portfolio" name="portfolio"  class="switching__portfolio">Портфолио</button>
+            <button  value="demos" name="demos"  class="switching__demos">Демо-версии</button>
+        </div>
+        <div id="favorites" class="page">
+<div class="flex__box"></div>
+        </div>
+        <div id="portfolio" class="page">
+
+        </div>
+        <div id="demos" class="page">
+
+        </div>
+      
 
     </div>
-<footer></footer>
+    <footer></footer>
     <!-- 
     <div class="profile__btns">
         <button class="btn">профиль</button><br>

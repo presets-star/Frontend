@@ -91,6 +91,31 @@ body {
                         font-weight: 300;
                         color: #F5F5F5;
 
+
+
+                        &:after {
+                            display: block;
+                            /*превращаем его в блочный элемент*/
+                            content: "";
+                            /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+                            height: 1px;
+                            /*задаём высоту линии*/
+                            width: 0%;
+                            /*задаём начальную ширину элемента (линии)*/
+                            background-color: #225384;
+                            /*цвет фона элемента*/
+                            transition: width 0.3s ease-in-out;
+                        }
+
+                        &:hover:after,
+                        &:focus:after {
+                            width: 100%;
+                        }
+
+                        &:hover {
+                            color: #f5fff5;
+                        }
+
                     }
                 }
             }
@@ -184,8 +209,8 @@ body {
             .btn {
                 width: 200px;
                 height: 59px;
-padding: 0 0 0 14px;
-cursor: pointer;
+                padding: 0 0 0 14px;
+                cursor: pointer;
                 border: 0;
                 border-radius: 40px;
                 margin-top: 10px;
@@ -200,8 +225,152 @@ cursor: pointer;
 
             .active {
                 background-color: #3F1792;
-transition: .6s ease;
+                transition: .6s ease;
             }
         }
+    }
+
+    .switching-btns {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 10px;
+        display: none;
+        margin: 25px 0 50px;
+
+        button {
+            padding: 10px 20px;
+            font-size: 15px;
+            font-weight: 400;
+            color: #f5f5f5;
+            text-align: center;
+            border-radius: 40px;
+            border: 0;
+            background-color: #080808;
+            cursor: pointer;
+        }
+
+        .switching-active {
+            background: #3F1792;
+            transition: .6s ease;
+
+        }
+    }
+
+    .page {
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+
+    .page-active {
+        display: block;
+    }
+
+
+
+    #favorites {
+        background-color: #080808;
+
+        .flex__box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            row-gap: 20px;
+
+            .main__poster__box {
+                width: 250px;
+                position: relative;
+
+                .poster__bg {
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .player {
+                        background: #08080888;
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        cursor: pointer;
+                        transform: translate(-50%, -50%);
+
+                        img {
+                            width: 50%;
+                        }
+                    }
+
+                }
+
+                .title__box {
+
+                    display: flex;
+                    align-items: start;
+                    justify-content: space-between;
+
+                    p {
+                        font-size: 17px;
+                        font-weight: 300;
+                        line-height: 30px;
+                        letter-spacing: 0em;
+                        color: white;
+
+                    }
+
+                    img {
+                        margin-top: 5px;
+                    }
+                }
+
+                .btn__cont {
+                    display: flex;
+                    justify-content: end;
+                    margin-top: 8px;
+                    margin-bottom: 30px;
+                    .basket__btn {
+
+                        padding: 7px 20px;
+                        border-radius: 23px;
+                        color: #F5F5F5;
+                        background-color: #080808;
+                        border: 1px solid #f5f5f5;
+                        display: flex;
+                        justify-content: end;
+                        text-align: end;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+    }
+
+    #portfolio {
+        background-color: #ccc91c;
+        width: 100%;
+height: 100vh;
+
+    }
+
+    #demos {
+        background-color: #225384;
+
+width: 100%;
+height: 100vh;
+    }
+
+    #ratings {
+        background-color: #c7125d;
+
     }
 }
