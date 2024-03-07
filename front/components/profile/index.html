@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.scss">
     <link rel="stylesheet" href="/components/header/style.scss">
     <link rel="stylesheet" href="/components/footer/style.scss">
+    <link rel="stylesheet" href="/components/newPrset/style.scss">
 </head>
 
 <body>
@@ -41,10 +42,10 @@
                     </div>
 
                     <div class="favorite__port__version__rating__box">
-                        <p  data-page="favorites">Избранное</p>
-                        <p  data-page="portfolio">Портфолио</p>
-                        <p  data-page="demos">Демо-версии</p>
-                        <p >Рейтинг:</p>
+                        <p data-page="favorites">Избранное</p>
+                        <p data-page="portfolio">Портфолио</p>
+                        <p data-page="demos">Демо-версии</p>
+                        <p>Рейтинг:</p>
                         <img width="100px" src="/public/stars (2).png" alt="">
                     </div>
 
@@ -146,22 +147,34 @@
 
         </div>
         <div class="switching-btns">
-            <button  value="favorites" name="favorites"  class="switching__favorites switching-active">Избранное</button>
-            <button  value="portfolio" name="portfolio"  class="switching__portfolio">Портфолио</button>
-            <button  value="demos" name="demos"  class="switching__demos">Демо-версии</button>
+            <button value="favorites" name="favorites" class="switching__favorites switching-active">Избранное</button>
+            <button value="portfolio" name="portfolio" class="switching__portfolio">Портфолио</button>
+            <button value="demos" name="demos" class="switching__demos">Демо-версии</button>
         </div>
         <div id="favorites" class="page">
-<div class="flex__box"></div>
+            <div class="flex__box"></div>
         </div>
+
         <div id="portfolio" class="page">
+            <div class="portfolio-flex__box">
+                <div class="create__box">
+                    <div class="img_case"><img width="100%" src="/public/Union.png" alt=""></div>
+                </div>
+            </div>
 
         </div>
         <div id="demos" class="page">
-
+            <div class="demo-flex__box">
+                <div class="demo-create__box">
+                    <div class="demo-img_case"><img width="100%" src="/public/Union.png" alt=""></div>
+                </div>
+            </div>
         </div>
-      
+
 
     </div>
+    
+    <div class="main__newPrseta__contener"></div>
     <footer></footer>
     <!-- 
     <div class="profile__btns">
@@ -169,6 +182,7 @@
         <button class="btn">Смена пароля</button><br>
         <button class="btn">Выход из системы</button>
     </div> -->
+    <script src="/components/newPrset/index.js"></script>
     <script src="/components/footer/index.js"></script>
     <script src="./index.js"></script>
 </body>
