@@ -10,10 +10,16 @@ let switchingBtn = document.querySelectorAll('.switching-btns button')
 let switchingBlock = document.querySelector('.switching-btns')
 let switching__favorites = document.querySelector('.switching__favorites')
 let switching__portfolio = document.querySelector('.switching__portfolio')
-console.log(pagesBtn);
 
 let modal_create_prseta = document.querySelector('.main__newPrseta__contener')
 
+pages.forEach(page => {
+    if (location.hash.split('-').join('').includes(page.id)) {
+        pages.forEach(pag => pag.classList.remove("page-active"))
+        page.classList.add("page-active")
+
+    }
+});
 pagesBtn.forEach(btn => {
 
     btn.onclick = () => {
