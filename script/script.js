@@ -15,6 +15,16 @@ const data = [
     { name: 'ARTIST STARTER KIT', price: '$15.00', img: 'images/preset6.png' }
 ];
 
+
+let akk__iconBtn = document.querySelector('.acc')
+let registrationModal = document.querySelector('.main__authorization__contener')
+
+akk__iconBtn.onclick = () => {
+location.href = "/front/components/profile/index.html"
+}
+
+console.log(akk__iconBtn);
+
 function presets(data) {
     return (
         <div className="card_item">

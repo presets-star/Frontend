@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="/css/acount.css">
+
     <link rel="stylesheet" href="css/styles.css">
     <title>Главная</title>
 </head>
@@ -17,7 +19,7 @@
                         <a href="#"><img src="images/logo.svg" alt="logotype"></a>
                     </div>
                     <nav class="nav">
-                        <a href="#"><img src="images/acc.svg" alt="your account"></a>
+                        <a href="#"><img class="acc" src="images/acc.svg" alt="your account"></a>
                         <a href="#"><img src="images/shop.svg" alt="shop"></a>
                     </nav>
                 </header>
@@ -143,24 +145,28 @@
                     <h3>Социальные сети</h3>
                     <ul>
                         <li><a href="#">ВКонтакте</a></li>
-                        <li><a href="#">Telegram</a></li>
+                        <li><a href="https://t.me/+vQJhDQgctjs4ZGU6">Telegram</a></li>
                     </ul>
                 </div>
                 <div class="support">
                     <h3>Поддержка</h3>
                     <ul>
-                        <li><a href="#">Вход</a></li>
-                        <li><a href="#">Регистрация</a></li>
-                        <li><a href="#">Связаться с нами</a></li>
-                        <li><a href="#">Помощь</a></li>
+                        <li><a target="_blank" href="/front/components/profile/index.html">Вход</a></li>
+                        <li><a target="_blank" href="/front/components/profile/index.html">Регистрация</a></li>
+                        <li><a href="https://t.me/+vQJhDQgctjs4ZGU6">Связаться с нами</a></li>
+                        <li><a  href="https://t.me/+vQJhDQgctjs4ZGU6">Помощь</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+
+    <div class="main__authorization__contener"></div>
+<script src="/front/components/profile/index.html"></script>
     <script crossorigin src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone@7.23.10/babel.min.js"></script>
+    <script src="/front/components/authorization/index.js"></script>
     <script src="script/script.js" type="text/babel"></script>
 </body>
 </html>
