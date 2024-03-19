@@ -19,9 +19,23 @@ const data = [
 let akk__iconBtn = document.querySelector('.acc')
 let registrationModal = document.querySelector('.main__authorization__contener')
 
+let chat__btn = document.querySelector('.chat__btn')
+let chat__list = document.querySelector('.chat__list')
+let close__btns = document.querySelectorAll('.left-list img')
+
 akk__iconBtn.onclick = () => {
-location.href = "/front/components/profile/index.html"
+    location.href = "/front/components/profile/index.html"
 }
+
+chat__btn.onclick=()=> {
+chat__list.style.display = "block"
+}
+close__btns.forEach(btn => {
+    btn.onclick=()=>{
+        chat__list.style.display = "none"
+    }
+});
+
 
 console.log(akk__iconBtn);
 
