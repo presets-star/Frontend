@@ -85,7 +85,7 @@ body {
                     align-items: center;
                     gap: 30px;
 
-a {
+                    a {
                         cursor: pointer;
                         font-size: 16px;
                         font-weight: 300;
@@ -124,14 +124,16 @@ a {
             .transaction__flex__box {
                 display: flex;
                 align-self: center;
+                flex-wrap: wrap;
+                width: 100%;
                 gap: 40px;
                 justify-content: start;
                 margin-left: 20px;
                 margin-top: 55px;
-
+                text-wrap: nowrap;
 
                 .transaction__item {
-                    width: 20%;
+                    width: 200px;
                 }
 
                 p {
@@ -146,14 +148,14 @@ a {
                     border: 1px solid #3F1792;
                     margin: 3px 0 7px;
                     border-top: 1px solid #33333300;
-
+                    width: 100%;
                 }
             }
         }
     }
 
     .btns__information__box {
-        display: flex;
+        display: flex !important;
         gap: 20px;
         margin-top: 80px;
 

@@ -1,0 +1,202 @@
+@media(max-width:1080px) {
+
+    .profile__main__contener {
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 70px 20px;
+    }
+
+    .flex__cont {
+        width: 100%;
+        display: flex;
+        gap: 15px !important;
+    }
+
+    .favorite__port__version__rating__box {
+        display: flex;
+        align-items: center;
+        gap: 15px !important;
+    }
+}
+
+
+
+@media(max-width:900px) {
+
+    .profile__main__contener {
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 70px 20px;
+    }
+
+    .flex__cont {
+        width: 100%;
+        display: flex;
+        gap: 15px !important;
+    }
+
+    .favorite__port__version__rating__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px !important;
+        margin-top: 20px;
+
+        a {
+            cursor: pointer;
+            font-size: 14px !important;
+            font-weight: 300;
+            color: #F5F5F5;
+            text-decoration: none;
+        }
+
+        img {
+            width: 60px;
+        }
+    }
+
+    .name__email {
+
+        .name {
+            display: flex;
+            align-items: center;
+            gap: 5px !important;
+
+            h2 {
+                font-size: 20px !important;
+                font-weight: 400;
+
+
+            }
+
+            img {
+                margin-top: 5px;
+                cursor: pointer;
+                width: 14px;
+            }
+        }
+
+        .email {
+            font-size: 14px !important;
+            font-weight: 300;
+
+
+        }
+    }
+
+    .name__portfolio__flex__case {
+        display: block !important;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .transaction__flex__box {
+        display: flex;
+        align-self: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 40px;
+        justify-content: start;
+        margin-left: 20px;
+        margin-top: 55px;
+        text-wrap: nowrap;
+
+        .transaction__item {
+            width: 150px !important;
+        }
+
+        p {
+            font-size: 17px !important;
+            font-weight: 300;
+            line-height: 34px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .trans__hr {
+            border: 1px solid #3F1792;
+            margin: 3px 0 7px;
+            border-top: 1px solid #33333300;
+            width: 100%;
+        }
+    }
+}
+
+
+
+@media(max-width:800px){
+
+.main__poster__box {
+    width: 200px !important;
+    position: relative;
+
+    .poster__bg {
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        .player {
+            background: #08080888;
+            width: 50px !important;
+            height: 50px !important;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            cursor: pointer;
+            transform: translate(-50%, -50%);
+
+            img {
+                width: 30% !important;
+            }
+        }
+
+    }
+
+    .title__box {
+
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+
+        p {
+            font-size: 14px !important;
+            font-weight: 300;
+            line-height: 20px !important;
+            letter-spacing: 0em;
+            color: white;
+
+        }
+
+        img {
+            margin-top: 15px;
+            width: 60px;
+        }
+    }
+
+    .btn__cont {
+        display: flex;
+        justify-content: end;
+        margin-top: 8px;
+        margin-bottom: 30px;
+
+        .basket__btn {
+
+            padding: 7px 20px;
+            border-radius: 23px;
+            color: #F5F5F5;
+            background-color: #080808;
+            border: 1px solid #f5f5f5;
+            display: flex;
+            justify-content: end;
+            text-align: end;
+            cursor: pointer;
+        }
+    }
+}}
