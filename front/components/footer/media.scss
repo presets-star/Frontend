@@ -1,0 +1,100 @@
+@media (max-width: 445px) {
+  footer {
+    width: 100%;
+    background: #000000;
+    height: 230px;
+    padding: 50px 25px;
+  }
+}
+
+@media (max-width: 535px) {
+  footer {
+    th {
+      text-align: start;
+      padding: 10px 50px 10px 0;
+      font-size: 15px;
+    }
+    td {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 465px) {
+  footer{
+    height: 270px;
+    th {
+      font-size: 12px;
+      padding: 0px 20px 10px 0;
+    }
+    td{
+      font-size: 12px;
+    }
+  } 
+}
+
+@media (max-width: 375px) {
+  .main__poster__box {
+    width: 120px !important;
+    position: relative;
+  }
+
+  .profile__main__contener {
+    .switching-btns {
+      gap: 0px;
+    }
+  }
+  .fot__blocks th {
+    font-size: 10px;
+  }
+  .fot__blocks td {
+    font-size: 6px;
+  }
+  footer {
+    width: 100%;
+    background: #000000;
+    height: 170px;
+    padding: 28px 23px;
+  }
+  .profile__main__contener {
+    .btns__information__box {
+      .info__profiles h3 {
+        margin-left: 30px;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 34px;
+        color: #f5f5f5;
+        table td {
+          padding: 0px 30px;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 365px) {
+  .profile__main__contener {
+    .switching-btns button {
+      padding: 9px 13px;
+    }
+  }
+}
+
+@media (max-width: 365px) {
+  .profile__main__contener {
+    .switching-btns button {
+      padding: 9px 10px;
+    }
+  }
+}
+
+@media (max-width: 326px) {
+  .fot__blocks th {
+    font-size: 8px;
+  }
+  .fot__blocks td {
+    font-size: 5px;
+  }
+}

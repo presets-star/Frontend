@@ -1,178 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.scss">
-    <link rel="stylesheet" href="./media.scss">
-    <link rel="stylesheet" href="/components/header/style.scss">
-    <link rel="stylesheet" href="/components/footer/style.scss">
-    <link rel="stylesheet" href="/components/newPrset/style.scss">
-</head>
+    <link rel="stylesheet" href="./style.scss" />
+    <link rel="stylesheet" href="./media.scss" />
+    <link rel="stylesheet" href="/components/header/style.scss" />
+    <link rel="stylesheet" href="/components/header/media.scss" />
+    <link rel="stylesheet" href="/components/footer/style.scss" />
+    <link rel="stylesheet" href="/components/footer/media.scss" />
+    <link rel="stylesheet" href="/components/newPrset/style.scss" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h2>PRESET S STAR</h2>
-        <div class="acount_box">
-            <img src="/public/basket.png" alt="">
-        </div>
+      <h2>PRESET S STAR</h2>
+      <div class="acount_box">
+        <img src="/public/basket.png" alt="" />
+      </div>
     </header>
 
     <div class="profile__main__contener">
-        <div class="flex__cont">
-
-            <div class="left__gravatar__box">
-                <div class="graatar"><img width="40%" src="/public/camera.png" alt=""></div>
-                <div class="folow__box">
-                    <p>Подписчики: 39 </p>
-                    <p>Треки: 23</p>
-                </div>
-            </div>
-
-
-            <div class="right__info__box">
-                <div class="name__portfolio__flex__case">
-
-                    <div class="name__email">
-                        <div class="name">
-                            <h2>Елизавета </h2><img width="15%" src="/public/edit.png" alt="">
-                        </div>
-                        <div class="email">lizaboba@mail.ru</div>
-                    </div>
-
-                    <div class="favorite__port__version__rating__box">
-                        <a href="#favorites__" data-page="favorites">Избранное</a>
-                        <a href="#portfolio__" data-page="portfolio">Портфолио</a>
-                        <a href="#demos__" data-page="demos">Демо-версии</a>
-                        <a href="#">Рейтинг:</a>
-                        <img width="100px" src="/public/stars (2).png" alt="">
-                    </div>
-
-                </div>
-
-                <div class="transaction__flex__box">
-                    <div class="transaction__item">
-                        <p>Всего потрачено</p>
-                        <hr class="trans__hr">
-                        <p>0.00</p>
-                    </div>
-                    <div class="transaction__item">
-                        <p>Покупки</p>
-                        <hr class="trans__hr">
-                        <p>0</p>
-                    </div>
-                    <div class="transaction__item">
-                        <p>Общий кошелек</p>
-                        <hr class="trans__hr">
-                        <p>0.00</p>
-                    </div>
-                    <div class="transaction__item">
-                        <p>Продано</p>
-                        <hr class="trans__hr">
-                        <p>0</p>
-                    </div>
-                </div>
-
-            </div>
+      <div class="flex__cont">
+        <div class="left__gravatar__box">
+          <div class="graatar">
+            <img width="40%" src="/public/camera.png" alt="" />
+          </div>
+          <div class="folow__box">
+            <p>Подписчики: 39</p>
+            <p>Треки: 23</p>
+          </div>
         </div>
 
-        <div class="btns__information__box page" >
-
-            <div class="profile__btns">
-                <button class="btn active">Мой профиль</button><br>
-                <button class="btn">Смена пароля</button><br>
-                <button class="btn">Выход из системы</button>
+        <div class="right__info__box">
+          <div class="name__portfolio__flex__case">
+            <div class="name__email">
+              <div class="name">
+                <h2>Елизавета</h2>
+                <img width="15%" src="/public/edit.png" alt="" />
+              </div>
+              <div class="email">lizaboba@mail.ru</div>
             </div>
 
-            <div class="info__profiles">
-                <div class="first__item">
-                    <h3>Информация профиля</h3>
-                    <table>
-                        <tr>
-                            <th>Имя:</th>
-                            <th>Фамилия:</th>
-                        </tr>
-                        <tr>
-                            <td>Елизавета</td>
-                            <td>-</td>
-
-                        </tr>
-                    </table>
-
-                    <table>
-                        <tr>
-                            <th>Дата рождения:</th>
-                            <th>Пол:</th>
-                        </tr>
-                        <tr>
-                            <td>-</td>
-                            <td>-</td>
-
-
-                        </tr>
-                    </table>
-
-
-                </div>
-
-                <div class="second__item">
-                    <h3>Способы связи</h3>
-                    <table>
-                        <tr>
-                            <th>Имя:</th>
-                            <th>Фамилия:</th>
-                        </tr>
-                        <tr>
-                            <td>Елизавета</td>
-                            <td>-</td>
-
-                        </tr>
-                    </table>
-
-                    <table>
-                        <tr>
-                            <th>Дата рождения:</th>
-                            <th>Пол:</th>
-                        </tr>
-                        <tr>
-                            <td>-</td>
-                            <td>-</td>
-
-
-                        </tr>
-                    </table>
-                </div>
+            <div class="favorite__port__version__rating__box">
+              <a href="#favorites__" data-page="favorites">Избранное</a>
+              <a href="#portfolio__" data-page="portfolio">Портфолио</a>
+              <a href="#demos__" data-page="demos">Демо-версии</a>
+              <div class="a">
+                <a href="#">Рейтинг:</a>
+                <img width="100px" src="/public/stars (2).png" alt="" />
+              </div>
             </div>
+          </div>
 
-        </div>
-        <div class="switching-btns">
-            <button value="favorites" name="favorites" class="switching__favorites switching-active">Избранное</button>
-            <button value="portfolio" name="portfolio" class="switching__portfolio">Портфолио</button>
-            <button value="demos" name="demos" class="switching__demos">Демо-версии</button>
-        </div>
-        <div id="favorites" class="page">
-            <div class="flex__box"></div>
-        </div>
-
-        <div id="portfolio" class="page">
-            <div class="portfolio-flex__box">
-                <div class="create__box">
-                    <div class="img_case"><img width="100%" src="/public/Union.png" alt=""></div>
-                </div>
+          <div class="transaction__flex__box">
+            <div class="transaction__item">
+              <p>Всего потрачено</p>
+              <hr class="trans__hr" />
+              <p>0.00</p>
             </div>
-
-        </div>
-        <div id="demos" class="page">
-            <div class="demo-flex__box">
-                <div class="demo-create__box">
-                    <div class="demo-img_case"><img width="100%" src="/public/Union.png" alt=""></div>
-                </div>
+            <div class="transaction__item">
+              <p>Покупки</p>
+              <hr class="trans__hr" />
+              <p>0</p>
             </div>
+            <div class="transaction__item">
+              <p>Общий кошелек</p>
+              <hr class="trans__hr" />
+              <p>0.00</p>
+            </div>
+            <div class="transaction__item">
+              <p>Продано</p>
+              <hr class="trans__hr" />
+              <p>0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="btns__information__box page">
+        <div class="profile__btns">
+          <button class="btn active">Мой профиль</button><br />
+          <button class="btn">Смена пароля</button><br />
+          <button class="btn">Выход из системы</button>
         </div>
 
+        <div class="info__profiles">
+          <div class="first__item">
+            <h3>Информация профиля</h3>
+            <table>
+              <tr>
+                <th>Имя:</th>
+                <th>Фамилия:</th>
+              </tr>
+              <tr>
+                <td>Елизавета</td>
+                <td>-</td>
+              </tr>
+            </table>
 
+            <table>
+              <tr>
+                <th>Дата рождения:</th>
+                <th>Пол:</th>
+              </tr>
+              <tr>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="second__item">
+            <h3>Способы связи</h3>
+            <table>
+              <tr>
+                <th>Имя:</th>
+                <th>Фамилия:</th>
+              </tr>
+              <tr>
+                <td>Елизавета</td>
+                <td>-</td>
+              </tr>
+            </table>
+
+            <table>
+              <tr>
+                <th>Дата рождения:</th>
+                <th>Пол:</th>
+              </tr>
+              <tr>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="switching-btns">
+        <button
+          value="favorites"
+          name="favorites"
+          class="switching__favorites switching-active"
+        >
+          Избранное
+        </button>
+        <button value="portfolio" name="portfolio" class="switching__portfolio">
+          Портфолио
+        </button>
+        <button value="demos" name="demos" class="switching__demos">
+          Демо-версии
+        </button>
+      </div>
+      <div id="favorites" class="page">
+        <div class="flex__box"></div>
+      </div>
+
+      <div id="portfolio" class="page">
+        <div class="portfolio-flex__box">
+          <div class="create__box">
+            <div class="img_case">
+              <img width="100%" src="/public/Union.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="demos" class="page">
+        <div class="demo-flex__box">
+          <div class="demo-create__box">
+            <div class="demo-img_case">
+              <img width="100%" src="/public/Union.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="main__newPrseta__contener"></div>
@@ -186,6 +188,5 @@
     <script src="/components/newPrset/index.js"></script>
     <script src="/components/footer/index.js"></script>
     <script src="./index.js"></script>
-</body>
-
+  </body>
 </html>

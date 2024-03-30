@@ -1,0 +1,16 @@
+@media (max-width: 460px) {
+  header {
+    display: block;
+    h2 {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  header {
+    h2 {
+      font-size: 25px;
+    }
+  }
+}
